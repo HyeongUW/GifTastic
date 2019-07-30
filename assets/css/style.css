@@ -1,0 +1,98 @@
+/* Setting all the body element to... */
+body {
+    /* font-size to be 18px, and using arial and sans-srif font */
+    font: 18px arial, sans-serif;
+
+    /* Set the background color to be white */
+    background: #eee;
+}
+
+/* A place for animal images */
+#animals {
+    /* Set the width to be 70% of the entire page */
+    width: 70%;
+}
+
+/* A "animal-item" class which was assigned to temporary
+div container of new animal images*/
+.animal-item {
+    /* Make images to float to the left */
+    float: left;
+    /* And, give each image a padding of 10px. */
+    padding: 10px;
+}
+
+/* a form that asks user to type in animal to add */
+form {
+    /* Make it to float to the right */
+    float: right;
+    /* Set the width to be 30% of the entire page */
+    width: 30%;
+    /* Set the padding to be 20px on each side of this form element */
+    padding: 20px;
+}
+
+/* Give tha label tag following attributes */
+label {
+    /* Set the display to be block */
+    display: block;
+    /* Give the bottom margin of 10px */
+    margin-bottom: 10px;
+    /* Set the font-weight to be 700 */
+    font-weight: 700;
+}
+
+/* Set the text attribute of the search box */
+input[type="text"] {
+    /* set the width to be 100% */
+    width: 100%;
+    /* set the height tobe 30px */
+    height: 30px;
+    /* set the bottom margin to be 10px */
+    margin-bottom: 10px;
+    /* set the font-size to be 18px */
+    font-size: 18px;
+}
+
+/* Setting the attribute of animal buttons and submit button  */
+button, input[type="submit"] {
+    /* set vertical padding to be 5px, and 
+    horizontal padding to be 20px  */
+    padding: 5px 20px;
+    /* set the top and left margin to be 0, and
+    set the right and bottom margin to be 10px */
+    margin: 0 10px 10px 0;
+    /* Set the font-size to be 18px */
+    font-size: 18px;
+    /* Set the color of the button to be,
+    "#fff" */
+    color: #fff;
+    /* Set the cursor to be a pointer when it
+    is hovering on the buttons */
+    cursor: pointer;
+    /* Set the background color of buttons to be
+    "#659a98" */
+    background: #659a98;
+    /* Set the border to be 0 */
+    border: 0;
+    /* Set the border-radius to be 5px on every side */
+    border-radius: 5px;
+    /* Set the box shadow arround buttons and give the color
+    "#bbb".  */
+    box-shadow: 2px 2px 3px #bbb;
+}
+
+/* Change the color of the buttons when the mouse pointer
+is hovering.  */
+button:hover, input[type="submit"]:hover {
+    /* Change the color of button background to be
+    "#334e4d" */
+    background: #334e4d;
+}
+
+/* Change the color of the button when clicked */
+button.active {
+    /* Change the color of button background to be 
+    "#334e4d" */
+    background: #334e4d;
+}

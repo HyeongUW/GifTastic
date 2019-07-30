@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- This title will be shown on the tab which defines the title of the document -->
+    <title>Animaltastic</title>
+
+    <!-- Link style.css with this html document.
+        CSS document usually takes care of aesthetic part of the
+        website (program). -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- div container for animal buttons.
+        This works like a placehold for adding animal buttons
+        that will be used to show number of pictures. -->
+    <div id="animal-buttons">
+
+    </div>
+
+    <!-- This is a text-entry box to take in user-input animal,
+        it stores the user-input and toss it into javascript document for
+        further execution (creating user-input animal button) -->
+    <form id="animal-form">
+    <label for="animal-input">Add an animal</label>
+    <input type="text" id="animal-input"><br>
+    <input id="add-animal" type="submit" value="Submit">
+    </form>
+
+    <!-- div container for animal pictures.
+        This works like a placehold for adding animal pictures
+        that will be added after hitting animal button on the top
+        of the page. -->
+    <div id="animals">
+
+    </div>
+
+
+    <!-- It reads ajax elements deployed on the internet,
+        it is possible to use/call ajax methods by using this script tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Link app.js (Javascript document) with this html document.
+        Javascript ususally takes care of image manipulation, form validation, 
+        and dynamic changes of content.-->
+    <script src="./assets/javascript/app.js"></script>
+
+</body>
+</html>
